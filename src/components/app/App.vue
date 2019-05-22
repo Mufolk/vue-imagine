@@ -1,11 +1,7 @@
 
 <template>
   <div id="app">
-    <b-nav >
-      <b-nav-item v-for="bunda in bundas" class="comunista">
-        {{ bunda.title }}
-      </b-nav-item>
-    </b-nav>
+    <TopHeader/>
   </div>
 </template>
 
