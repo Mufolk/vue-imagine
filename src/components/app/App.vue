@@ -2,6 +2,7 @@
 <template>
   <div id="app">
     <TopHeader/>
+    <LandingPageItem/>
   </div>
 </template>
 
