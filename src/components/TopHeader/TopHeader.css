@@ -1,0 +1,14 @@
+#TopHeader {
+    background-color: #D05200;
+    display: flex;
+	align-items: center;
+}
+
+a .navigation-item {
+    color: white;
+}
+
+.navigation-item:hover {
+    background-color: #732D00; 
+    text-decoration: none;
+}

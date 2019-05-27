@@ -7,5 +7,6 @@
 
 <script src="./App.js"></script>
 <style>
+  @import './reset.css';
   @import './App.css';
 </style>
