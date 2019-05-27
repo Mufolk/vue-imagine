@@ -1,0 +1,35 @@
+.img-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.background-image-1, .background-image-2, 
+.background-image-3, .background-image-4 {
+/* height: 100%; */
+position: relative;
+opacity: 0.75;
+ background-attachment: fixed; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+max-height: 100%;
+}
+
+
+.background-image-1 {
+	background-image: url("../../assets/imagens/imagem1.jpg");
+}
+
+.sentence {
+	/*positioning an important phrase*/
+	position: absolute;
+    left: 10%;
+    top: 30%;
+    width: 75%;
+    text-align: center;
+    color: #D05200;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgba(255,255,255,0.7);
+}

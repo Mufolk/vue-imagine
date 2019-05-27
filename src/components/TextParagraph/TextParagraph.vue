@@ -1,17 +1,10 @@
 <template>
-    <div id="LandingPageItem">
-
-      <!-- <div class="img-area background-image-1 img-responsive">
-        <h1 class="sentence">Imagine? Que isso?</h1>
-      </div> -->
-
-      <ImageTitle/>
-      <TextParagraph/>
-      <!-- <div class="container paragraph-text">
+    <div id="TextParagraph">
+      <div class="container paragraph-text">
         <article class="artigo-fixo">
           <div class="sub-artigo">
               <!-- <p>{{item.paragrafo}}</p> -->
-          <!-- </div>
+          </div>
           <div class="sub-artigo">
             <h2>O que queremos?</h2>
             <p>Empoderar pessoas quanto ao desenvolvimento de suas próprias vidas, conectadas à uma interface com profissionais especializados, viabilizando troca de experiências entre usuários com questões e/ou situações semelhantes, na busca de soluções.</p>
@@ -21,12 +14,11 @@
             <p>Apresentando uma estratégia inovadora de desenvolvimento sustentável, despertando o potencial de cada indivíduo</p>
             </div>
         </article>
-      </div> -->
-
+      </div>
     </div>
 </template>
 
-<script src="./LandingPageItem.js"></script>
+<script src="./TextParagraph.js"></script>
 <style>
-  @import './LandingPageItem.css';
+  @import './TextParagraph.css';
 </style>

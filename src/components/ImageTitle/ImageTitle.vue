@@ -1,6 +1,8 @@
 <template>
     <div id="ImageTitle">
-
+      <div class="img-area background-image-1 img-responsive">
+        <h1 class="sentence">Imagine? Que isso?</h1>
+      </div>
     </div>
 </template>
 
